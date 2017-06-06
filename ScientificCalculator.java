@@ -23,7 +23,7 @@ public class ScientificCalculator extends JFrame {
 		buttonpanel1.setLayout(new GridLayout(3,2,4,4));
 		buttonpanel1.setBorder(new EmptyBorder(4,4,4,4));
 
-		AC = new JButton("AC");
+		AC = new JButton("AutoC");
 		buttonpanel1.add(AC);
 		AC.setBackground(Color.RED);
 		AC.addActionListener(B);
